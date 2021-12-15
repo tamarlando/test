@@ -1,0 +1,5 @@
+<div dir='rtl'>
+    <app-header [processModel]="process"></app-header>
+    <app-information-in-process [process]="process" [(count)] ="count"></app-information-in-process>
+    <app-list [process]="process" (countChanged)="onCountChanged($event)"></app-list>
+</div>
