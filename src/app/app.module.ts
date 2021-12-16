@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { InformationInProcessComponent } from './components/concentration/information-in-process/information-in-process.component';
 import { ListComponent } from './components/list/list.component';
 import { ConcentrationOfContactsComponent } from './components/concentration/concentration-of-contacts/concentration-of-contacts.component';
-import { PhonePipe } from './services/phone.pipe';
+import { PhonePipe } from './pipes/phone.pipe';
 
 @NgModule({
   declarations: [
